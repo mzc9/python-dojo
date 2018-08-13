@@ -29,7 +29,7 @@ print(word_counts['Ann'])
 #create a dictionary with each key as a separate word and set its value to 0
 word_histogram = dict.fromkeys(unique_words,0)
 
-print(word_histogram)
+#print(word_histogram)
 
 
 #create a for-loop
@@ -37,3 +37,16 @@ print(word_histogram)
 for number in [1,2,3,4]:
     print(number + 10)
 
+#to find how many times a particular word appears in the dictionary
+word_histogram["Hand"]
+
+#using plotly to make the chart
+import plotly
+from plotly.offline import iplot, init_notebook_mode
+from plotly import tools
+import plotly.graph_objs as go
+init_notebook_mode(connected=True)
+ 
+trace = {'type': 'bar', 'x': list(unique_words), 'y': list(word_histogram.values())}
+ 
+plotly.offline.iplot({'data': [trace]})
