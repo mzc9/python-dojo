@@ -1,2 +1,2 @@
 # python-dojo
-Just noodling about python
+Just noodling in python
