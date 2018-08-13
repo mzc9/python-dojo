@@ -26,4 +26,14 @@ word_counts = {'Ann': 2, 'Barbara': 3, 'Ba': 8}
 print(word_counts['Ann'])
 
 
-#create a dictionary
+#create a dictionary with each key as a separate word and set its value to 0
+word_histogram = dict.fromkeys(unique_words,0)
+
+print(word_histogram)
+
+
+#create a for-loop
+
+for number in [1,2,3,4]:
+    print(number + 10)
+
