@@ -22,3 +22,11 @@ help(str)
 
 #strings in python are a sequence, so they can be accessed via index
 #STRINGS ARE IMMUTABLE
+
+
+#strings are a sequence, so can use index to find specific parts of the strings
+s = "whatchamacallit"
+s[0] # ->'w'
+s[-1] # -> last letter
+s[:: -1] #-> reverse string
+s[::2] # grab all but go up in steps of 2
