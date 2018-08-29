@@ -8,3 +8,8 @@
 1/2 * 2 #results in 1.0
 
 #to get square root, use exponentiation with decimal
+
+a = 2
+a = 4
+a = 6
+print(a)
