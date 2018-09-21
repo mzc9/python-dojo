@@ -9,4 +9,4 @@ int1 = int(num_str1)
 float1 = float(num_str2)
 
 print('The numbers are: ',int1,' and ',float1)
-print('Their sum is: ',int1+float1, 'Their product is:',int1*float1)
+print('Their sum is: ',int1+float1, '\nTheir product is:',int1*float1)

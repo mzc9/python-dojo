@@ -16,3 +16,11 @@ def lesserOfTwo(num1, num2):
       return num2
     else:
       return num1
+      
+def string_length(mystring):
+  if type(mystring) == int:
+    return "sorry integers not allowed"
+  else:  
+    return len(mystring)
+  
+  
